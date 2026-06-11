@@ -1,8 +1,8 @@
 import axios from "axios";
 
 // FIXED: Changed 'localhost' to '127.0.0.1' to force IPv4 connection pathways
-const BASE_URL = "http://127.0.0.1:8080/students"; 
-
+const BASE_URL =
+   "https://student-management-backend-1-1f4n.onrender.com";
 const api = axios.create({
   baseURL: BASE_URL,
   headers: {
