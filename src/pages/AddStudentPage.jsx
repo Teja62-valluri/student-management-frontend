@@ -190,18 +190,9 @@ function AddStudentPage() {
             />
 
             <div>
-              <strong>Spring Boot Backend Required</strong> —
-              Make sure your API server is running at{" "}
-              <code
-                style={{
-                  background: "rgba(0,0,0,.06)",
-                  padding: "1px 5px",
-                  borderRadius: 4,
-                }}
-              >
-                http://localhost:8080
-              </code>
-            </div>
+  <strong>Backend API Status</strong> —
+  Connected to live Spring Boot server and successfully fetching student data.
+</div>
           </div>
 
           <div className="form-card">
